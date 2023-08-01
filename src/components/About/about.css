@@ -1,0 +1,55 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.about-title {
+  font-family: var(--font-1);
+  color: var(--highlight-2);
+  font-size: 50px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.restaurant-img {
+  width: 500px;
+  border-radius: 200px 200px 16px 200px;
+  -webkit-border-radius: 200px 200px 16px 200px;
+  -moz-border-radius: 200px 200px 16px 200px;
+  -ms-border-radius: 200px 200px 16px 200px;
+  -o-border-radius: 200px 200px 16px 200px;
+}
+.card__content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card__description {
+  font-size: 20px;
+  line-height: 1.6;
+  background: var(--highlight-1);
+  padding: 1rem;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+@media screen and (max-width: 567px) {
+  .card {
+    gap: 0;
+  }
+  .restaurant-img,
+  .card__content {
+    width: 100%;
+    margin: 18px;
+  }
+}

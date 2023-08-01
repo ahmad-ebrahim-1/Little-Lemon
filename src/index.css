@@ -1,0 +1,28 @@
+:root {
+  --primary-1: #495e57;
+  --primary-2: #f4ce14;
+  --black: #000;
+  --white: #fff;
+  --highlight-1: #edefee;
+  --highlight-2: #333333;
+  --font-1: "Markazi Text";
+  --font-2: "Karla";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-2);
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--highlight-2);
+  border-radius: 6px;
+}
+@media screen and (max-width: 767px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

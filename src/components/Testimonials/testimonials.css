@@ -1,0 +1,29 @@
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.testimonials-title {
+  font-family: var(--font-1);
+  font-size: 50px;
+  color: var(--highlight-2);
+}
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+@media screen and (min-width: 571px) and (max-width: 1030px) {
+  .testimonials {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .testimonials {
+    gap: 15px;
+  }
+}

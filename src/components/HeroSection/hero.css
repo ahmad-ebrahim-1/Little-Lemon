@@ -1,0 +1,127 @@
+.hero-container {
+  background: var(--primary-1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  padding-block: 75px 35px;
+}
+.hero-content {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.hero-content h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 65px;
+  color: var(--primary-2);
+}
+.hero-content h2 {
+  font-family: var(--font-1);
+  font-size: 45px;
+  color: var(--highlight-1);
+}
+.hero-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--highlight-1);
+}
+.hero-router-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--highlight-2);
+}
+.hero-content button {
+  width: 75%;
+  padding: 8px;
+  margin-top: 20px;
+  background: var(--primary-2);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.hero-content button:hover {
+  opacity: 0.9;
+}
+.hero-image {
+  width: 200px;
+  height: 290px;
+  border: 2px solid var(--highlight-1);
+  border-radius: 16px;
+}
+.image-1 {
+  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+}
+.image-2 {
+  transform: rotate(-1deg);
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+}
+/* Responsive */
+@media screen and (min-width: 456px) and (max-width: 980px) {
+  .hero-content {
+    width: 100%;
+  }
+  .hero-content button {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 455px) {
+  .hero-container {
+    gap: 15px;
+  }
+  .hero-content {
+    width: 100%;
+    padding: 20px;
+    gap: 5px;
+  }
+  .hero-content h1 {
+    font-size: 40px;
+  }
+  .hero-content h2 {
+    font-size: 35px;
+  }
+  .hero-content p {
+    font-size: 16px;
+  }
+  .hero-content button {
+    width: 100%;
+  }
+  .hero-router-link {
+    font-size: 16px;
+  }
+  .hero-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-image {
+    width: 196px;
+    height: 275px;
+  }
+}
