@@ -25,32 +25,32 @@ export default function Nav() {
       </div>
       <ul className={isVisible ? "nav-items visible" : "nav-items"}>
         <li className="nav-item">
-          <Link to="/" className="router-link">
+          <Link to="/little-lemon/" className="router-link">
             Home
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/" className="router-link">
+          <Link to="/little-lemon/" className="router-link">
             About
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/" className="router-link">
+          <Link to="/little-lemon/" className="router-link">
             Menu
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/booking-table" className="router-link">
+          <Link to="/little-lemon/booking-table" className="router-link">
             Reservations
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/" className="router-link">
+          <Link to="/little-lemon/" className="router-link">
             Order Online
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/" className="router-link">
+          <Link to="/little-lemon/" className="router-link">
             Login
           </Link>
         </li>

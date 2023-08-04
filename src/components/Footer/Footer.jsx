@@ -11,32 +11,32 @@ export default function Footer() {
       <ul className="doormat-navigation">
         <li className="footer-title">Doormat Navigation</li>
         <li className="doormat-link">
-          <Link to="/" className="footer-link">
+          <Link to="/little-lemon/" className="footer-link">
             Home
           </Link>
         </li>
         <li className="doormat-link">
-          <Link to="/" className="footer-link">
+          <Link to="/little-lemon/" className="footer-link">
             About
           </Link>
         </li>
         <li className="doormat-link">
-          <Link to="/" className="footer-link">
+          <Link to="/little-lemon/" className="footer-link">
             Menu
           </Link>
         </li>
         <li className="doormat-link">
-          <Link to="/booking-table" className="footer-link">
+          <Link to="/little-lemon/booking-table" className="footer-link">
             Reservation
           </Link>
         </li>
         <li className="doormat-link">
-          <Link to="/" className="footer-link">
+          <Link to="/little-lemon/" className="footer-link">
             Order Online
           </Link>
         </li>
         <li className="doormat-link">
-          <Link to="/" className="footer-link">
+          <Link to="/little-lemon/" className="footer-link">
             Login
           </Link>
         </li>

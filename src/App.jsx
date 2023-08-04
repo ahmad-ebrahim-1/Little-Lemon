@@ -56,9 +56,9 @@ function App() {
     <main className="container">
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/little-lemon/" element={<Home />} />
         <Route
-          path="/booking-table"
+          path="/little-lemon/booking-table"
           element={
             <BookingPage
               availableTimes={availableTimes}
