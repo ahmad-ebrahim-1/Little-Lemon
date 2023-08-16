@@ -15,7 +15,7 @@ export default function HeroSection() {
           restaurant features a localy-sourced menu with daily specials.
         </p>
         <button>
-          <Link to="/booking-table" className="hero-router-link">
+          <Link to="/little-lemon/booking-table" className="hero-router-link">
             Reserve a Table
           </Link>
         </button>

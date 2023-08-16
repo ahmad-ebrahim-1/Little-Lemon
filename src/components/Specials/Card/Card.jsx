@@ -1,4 +1,4 @@
-import delivery from "../../../assets//icons/icons8-delivery-64.png";
+import delivery from "../../../assets//icons/motorbike.png";
 import "./card.css";
 
 export default function Card(props) {
