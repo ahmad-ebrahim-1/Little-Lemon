@@ -83,36 +83,12 @@ select:focus {
   background: rgba(0, 0, 0, 0.3);
 }
 .response {
-  padding: 45px;
-  display: flex;
+  padding: 40px;
+  display: grid;
+  place-items: center;
   flex-direction: column;
   gap: 20px;
   background: var(--white);
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-}
-.txt {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-}
-.response h2 {
-  color: var(--highlight-2);
-  font-size: 20px;
-}
-.response button {
-  font-size: 18px;
-  font-weight: 600;
-  width: 100%;
-  padding: 10px;
-  background: var(--primary-1);
-  color: var(--white);
-  cursor: pointer;
-  border: none;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -133,11 +109,5 @@ select:focus {
   }
   .form-title {
     font-size: 45px;
-  }
-  .response h2 {
-    font-size: 18px;
-  }
-  .txt {
-    gap: 0;
   }
 }
