@@ -30,11 +30,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 75px;
+  gap: 18px;
   flex-wrap: wrap;
 }
 /* Responsive */
-@media screen and (min-width: 571px) and (max-width: 970px) {
+@media screen and (min-width: 571px) and (max-width: 1135px) {
   .title-row {
     gap: 150px;
   }

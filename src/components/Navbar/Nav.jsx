@@ -36,7 +36,7 @@ export default function Nav() {
             Home
           </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link to="/little-lemon/" className="router-link">
             About
           </Link>
@@ -45,13 +45,13 @@ export default function Nav() {
           <Link to="/little-lemon/" className="router-link">
             Menu
           </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link to="/little-lemon/booking-table" className="router-link">
             Reservations
           </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link to="/little-lemon/" className="router-link">
             Order Online
           </Link>
@@ -60,7 +60,7 @@ export default function Nav() {
           <Link to="/little-lemon/" className="router-link">
             Login
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

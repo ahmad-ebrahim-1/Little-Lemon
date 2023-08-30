@@ -82,9 +82,9 @@
   text-decoration: underline;
 }
 /* Responsive */
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 376px) {
   .card-container {
-    width: 95%;
+    width: 85%;
   }
   .card-image {
     height: 185px;

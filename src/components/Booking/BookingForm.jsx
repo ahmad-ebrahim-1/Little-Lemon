@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./booking.css";
 
 export default function BookingForm(props) {
-  const [date, setDate] = useState("");
+  const [date, setDate] = useState(new Date());
   const [time, setTime] = useState("");
   const [guests, setGuests] = useState("1");
   const [occasion, setOccasion] = useState("");

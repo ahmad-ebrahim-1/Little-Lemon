@@ -15,7 +15,7 @@ export default function Footer() {
             Home
           </Link>
         </li>
-        <li className="doormat-link">
+        {/* <li className="doormat-link">
           <Link to="/little-lemon/" className="footer-link">
             About
           </Link>
@@ -24,13 +24,13 @@ export default function Footer() {
           <Link to="/little-lemon/" className="footer-link">
             Menu
           </Link>
-        </li>
+        </li> */}
         <li className="doormat-link">
           <Link to="/little-lemon/booking-table" className="footer-link">
             Reservation
           </Link>
         </li>
-        <li className="doormat-link">
+        {/* <li className="doormat-link">
           <Link to="/little-lemon/" className="footer-link">
             Order Online
           </Link>
@@ -39,7 +39,7 @@ export default function Footer() {
           <Link to="/little-lemon/" className="footer-link">
             Login
           </Link>
-        </li>
+        </li> */}
       </ul>
       <ul className="contacts">
         <li className="footer-title">Contact</li>

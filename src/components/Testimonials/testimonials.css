@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 9px;
 }
 /* Responsive */
 @media screen and (min-width: 571px) and (max-width: 1030px) {
