@@ -6,17 +6,17 @@ export default function About() {
   return (
     <section className="about-container">
       <h1 className="about-title">About</h1>
-      <div class="card">
+      <div className="card">
         <img
           className="restaurant-img"
           src={restaurant}
           alt="Restaurant image"
         />
-        <div class="card__content">
-          <p class="card__title">
+        <div className="card__content">
+          <p className="card__title">
             <img src={about} alt="About image" />
           </p>
-          <p class="card__description">
+          <p className="card__description">
             Little lemon restaurant is located in Chicago city, serving all
             kinds of western and oriental dishes prepared by the best chefs on
             the international level. It is also distinguished by its wonderful

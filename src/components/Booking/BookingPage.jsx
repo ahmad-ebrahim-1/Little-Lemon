@@ -5,11 +5,11 @@ import BookingResponse from "./BookingResponse";
 export default function BookingPage(props) {
   const [isLoading, setIsLoading] = useState(true);
 
-  function wait() {
+  async function wait() {
     try {
       setTimeout(() => {
         setIsLoading(false);
-      }, 2000);
+      }, 4000);
     } catch {
       throw Error("error with wait function..!");
     } finally {
