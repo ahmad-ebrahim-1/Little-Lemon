@@ -5,18 +5,6 @@ import BookingResponse from "./BookingResponse";
 export default function BookingPage(props) {
   const [isLoading, setIsLoading] = useState(true);
 
-  function waitResponse() {
-    try {
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 4000);
-    } catch {
-      throw Error("error with waitResponse function..!");
-    } finally {
-      setIsLoading(true);
-    }
-  }
-
   return (
     <>
       <div className="form-wrapper">
@@ -24,7 +12,13 @@ export default function BookingPage(props) {
           availableTimes={props.availableTimes}
           dispatch={props.dispatch}
           submitForm={props.submitForm}
-          waitResponse={waitResponse}
+          waitResponse={() => {
+            setTimeout(() => {
+              setIsLoading(false);
+              console.log("test");
+            }, 4000);
+            setIsLoading(true);
+          }}
         />
         {props.alert && (
           <BookingResponse setAlert={props.setAlert} isLoading={isLoading} />
