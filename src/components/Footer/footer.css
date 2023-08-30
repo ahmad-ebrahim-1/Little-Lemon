@@ -37,6 +37,7 @@ li {
 .social img {
   width: 18px;
 }
+/* Responsive */
 @media screen and (min-width: 416px) and (max-width: 1023px) {
   .footer {
     gap: 35px;

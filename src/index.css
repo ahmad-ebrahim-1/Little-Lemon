@@ -19,7 +19,6 @@
 }
 ::-webkit-scrollbar-thumb {
   background: var(--highlight-2);
-  border-radius: 6px;
 }
 @media screen and (max-width: 767px) {
   ::-webkit-scrollbar {

@@ -1,4 +1,4 @@
-import delivery from "../../../assets//icons/motorbike.png";
+import delivery from "../../../assets//icons/delivery-movement-svgrepo-com.svg";
 import "./card.css";
 
 export default function Card(props) {

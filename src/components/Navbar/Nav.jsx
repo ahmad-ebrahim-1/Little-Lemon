@@ -15,9 +15,16 @@ export default function Nav() {
     }
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <nav className="nav-bar">
-      <img className="logo" src={logo} alt="Logo" />
+      <img className="logo" src={logo} alt="Logo" onClick={scrollToTop} />
       <div onClick={() => setIsVisible(!isVisible)} className="hamburger">
         <span className={isVisible ? "line x-line" : "line"}></span>
         <span className={isVisible ? "line x-line" : "line"}></span>

@@ -14,7 +14,7 @@ export default function BookingForm(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    props.wait();
+    props.waitResponse();
     props.submitForm({
       date: date,
       time: time,

@@ -1,4 +1,4 @@
-/* Booking Form */
+/* BookingForm styling */
 .form-wrapper {
   height: 100vh;
   display: flex;
@@ -71,7 +71,7 @@ select:focus {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
-/* Response styling */
+/* BookingResponse styling */
 .response-wrapper {
   position: absolute;
   top: 0;
