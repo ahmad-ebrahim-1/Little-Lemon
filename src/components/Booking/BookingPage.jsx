@@ -15,7 +15,6 @@ export default function BookingPage(props) {
           waitResponse={() => {
             setTimeout(() => {
               setIsLoading(false);
-              console.log("test");
             }, 4000);
             setIsLoading(true);
           }}
