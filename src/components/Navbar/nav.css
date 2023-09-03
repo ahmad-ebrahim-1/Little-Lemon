@@ -4,8 +4,9 @@
   top: 0;
   z-index: 1;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  gap: 220px;
   padding: 12px;
   box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
   background: var(--white);
@@ -14,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
 }
 .logo {
   cursor: pointer;
@@ -50,12 +51,12 @@
 /* Responsive */
 @media screen and (min-width: 768px) and (max-width: 900px) {
   .nav-items {
-    gap: 6px;
+    gap: 10px;
   }
 }
 @media screen and (max-width: 767px) {
   .nav-bar {
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 0;
   }
   .nav-items {
@@ -86,9 +87,10 @@
     transform: translateX(-100%);
   }
   .hamburger {
+    margin-right: 10px;
     z-index: 10;
     cursor: pointer;
-    width: 35px;
+    width: 40px;
     height: 25px;
     display: flex;
     flex-direction: column;
@@ -113,9 +115,6 @@
   }
   .x-line:nth-child(3) {
     transform: rotate(45deg) translateY(-15px);
-  }
-  .line:nth-child(2) {
-    width: 50%;
   }
 }
 @media screen and (min-width: 467px) and (max-width: 767px) {
