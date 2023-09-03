@@ -26,6 +26,7 @@
   color: var(--highlight-1);
 }
 .specials {
+  filter: drop-shadow(4px 4px 10px var(--highlight-2));
   margin-block: 35px;
   display: flex;
   justify-content: center;

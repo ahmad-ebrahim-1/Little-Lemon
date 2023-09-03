@@ -1,6 +1,6 @@
 import { useState } from "react";
-import BookingForm from "./BookingForm";
-import BookingResponse from "./BookingResponse";
+import BookingForm from "../BookingForm/BookingForm";
+import BookingResponse from "../BookingResponse/BookingResponse";
 
 export default function BookingPage(props) {
   const [isLoading, setIsLoading] = useState(true);

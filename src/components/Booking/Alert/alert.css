@@ -1,19 +1,24 @@
 .alert {
+  width: 275px;
+  height: 125px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 18px;
+  gap: 8px;
 }
 .alert .txt {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
 }
-.txt h2 {
+.txt p {
   color: var(--highlight-2);
   font-size: 20px;
+}
+.txt img {
+  width: 20px;
 }
 .alert button {
   font-size: 18px;
@@ -24,9 +29,18 @@
   color: var(--white);
   cursor: pointer;
   border: none;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+/* Responsive */
+@media screen and (max-width: 467px) {
+  .alert {
+    width: 100%;
+  }
+  .txt p {
+    font-size: 18px;
+  }
 }

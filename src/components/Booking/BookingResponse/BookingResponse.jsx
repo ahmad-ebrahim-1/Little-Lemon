@@ -1,6 +1,6 @@
-import "./booking.css";
-import Loader from "./Loader/Loader";
-import Alert from "./Alert/Alert";
+import "./bookingResponse.css";
+import Loader from "../Loader/Loader";
+import Alert from "../Alert/Alert";
 
 export default function BookingResponse(props) {
   return (

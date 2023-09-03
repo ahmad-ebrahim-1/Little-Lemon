@@ -38,12 +38,11 @@
   color: var(--highlight-2);
 }
 .hero-content button {
-  width: 75%;
-  padding: 8px;
+  width: 65%;
+  padding: 10px;
   margin-top: 20px;
   background: var(--primary-2);
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   border: none;
@@ -66,13 +65,13 @@
   gap: 10px;
 }
 .hero-image {
-  width: 200px;
-  height: 290px;
+  aspect-ratio: 2/3;
+  width: 225px;
   border: 1px solid var(--highlight-1);
   border-radius: 16px;
 }
 /* Responsive */
-@media screen and (min-width: 456px) and (max-width: 990px) {
+@media screen and (min-width: 456px) and (max-width: 1045px) {
   .hero-content {
     width: 100%;
     padding: 45px;

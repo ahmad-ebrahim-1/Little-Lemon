@@ -5,7 +5,7 @@ export default function Alert(props) {
   return (
     <div className="alert">
       <div className="txt">
-        <h2>Reservation done</h2>
+        <p>Your reservation has been completed successfully</p>
         <img src={check} alt="Check icon" />
       </div>
       <button onClick={() => props.setAlert(false)}>Close</button>

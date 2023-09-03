@@ -1,0 +1,27 @@
+.response-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+.response {
+  padding: 40px;
+  display: grid;
+  place-items: center;
+  background: var(--white);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+/* Responsive */
+@media screen and (max-width: 467px) {
+  .response {
+    width: 90%;
+  }
+}

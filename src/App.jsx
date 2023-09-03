@@ -1,6 +1,6 @@
 import Nav from "./components/Navbar/Nav";
 import Home from "./components/Home/Home";
-import BookingPage from "./components/Booking/BookingPage";
+import BookingPage from "./components/Booking/BookingPage/BookingPage";
 import { Routes, Route } from "react-router-dom";
 import { useReducer, useState } from "react";
 import "./App.css";
