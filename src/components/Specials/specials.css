@@ -35,7 +35,7 @@
   flex-wrap: wrap;
 }
 /* Responsive */
-@media screen and (min-width: 571px) and (max-width: 1135px) {
+@media screen and (min-width: 571px) and (max-width: 1045px) {
   .title-row {
     gap: 150px;
   }
