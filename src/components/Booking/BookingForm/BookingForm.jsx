@@ -88,7 +88,8 @@ export default function BookingForm(props) {
           <span style={{ color: "#ff3c00" }}>
             *{" "}
             <span style={{ color: "var(--primary-2)" }}>
-              {formData.date && `on ${formData.date}`}
+              {formData.date &&
+                `on ${new Date(formData.date).toUTCString().slice(0, 16)}`}
             </span>
           </span>
         </label>
