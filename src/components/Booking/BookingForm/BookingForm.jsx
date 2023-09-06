@@ -3,9 +3,9 @@ import "./bookingForm.css";
 
 export default function BookingForm(props) {
   const [formData, setFormData] = useState({
-    date: new Date(),
-    time: "17:00",
-    guests: 2,
+    date: null,
+    time: "",
+    guests: 4,
     occasion: "Ordinary dinner",
   });
   const [errorMessages, setErrorMessages] = useState({});
@@ -54,10 +54,10 @@ export default function BookingForm(props) {
       props.submitForm({ formData });
       props.waitResponse();
       setFormData({
-        date: new Date(),
-        time: "17:00",
-        guests: 2,
-        occasion: "Birthday",
+        date: null,
+        time: "",
+        guests: 4,
+        occasion: "Ordinary dinner",
       });
     }
   }
@@ -84,7 +84,13 @@ export default function BookingForm(props) {
       </div>
       <div className="form-input">
         <label htmlFor="time">
-          Available times <span style={{ color: "#ff3c00" }}>*</span>
+          Available times{" "}
+          <span style={{ color: "#ff3c00" }}>
+            *{" "}
+            <span style={{ color: "var(--primary-2)" }}>
+              {formData.date && `on ${formData.date}`}
+            </span>
+          </span>
         </label>
         <select
           id="time"
@@ -92,9 +98,11 @@ export default function BookingForm(props) {
           value={formData.time}
           onChange={handleChange}
         >
-          {props.availableTimes.map((time) => {
-            return <option key={time}>{time}</option>;
-          })}
+          {new Date(formData.date) < new Date()
+            ? ""
+            : props.availableTimes.map((time) => {
+                return <option key={time}>{time}</option>;
+              })}
         </select>
         {errorMessages.time && (
           <span style={{ color: "#ff3c00" }}>{errorMessages.time}</span>
