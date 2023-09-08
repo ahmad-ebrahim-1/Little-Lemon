@@ -1,24 +1,27 @@
 .alert {
   width: 275px;
-  height: 125px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
 .alert .txt {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 .txt p {
+  text-align: center;
   color: var(--highlight-2);
   font-size: 20px;
+  line-height: 1.4;
 }
 .txt img {
-  width: 20px;
+  width: 28px;
+  order: -1;
 }
 .alert button {
   font-size: 18px;
