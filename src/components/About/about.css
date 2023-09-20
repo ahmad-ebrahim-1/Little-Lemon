@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
   gap: 35px;
-  filter: drop-shadow(-10px -10px 10px var(--highlight-1));
+  filter: drop-shadow(10px 10px 10px var(--highlight-1));
+  -webkit-filter: drop-shadow(10px 10px 10px var(--highlight-1));
 }
 .about-title {
   font-family: var(--font-1);
@@ -25,6 +26,18 @@
   -moz-border-radius: 200px 200px 16px 200px;
   -ms-border-radius: 200px 200px 16px 200px;
   -o-border-radius: 200px 200px 16px 200px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.restaurant-img:hover {
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 .card__content {
   width: 500px;
