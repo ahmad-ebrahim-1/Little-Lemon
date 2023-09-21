@@ -75,5 +75,10 @@
   .testimonial {
     width: 85%;
     gap: 16px;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
   }
 }
