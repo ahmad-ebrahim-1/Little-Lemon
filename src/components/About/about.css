@@ -62,4 +62,7 @@
   .card__content {
     width: 85%;
   }
+  .card__description {
+    padding: 1.6rem;
+  }
 }
