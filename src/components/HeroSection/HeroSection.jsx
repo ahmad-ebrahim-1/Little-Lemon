@@ -1,9 +1,11 @@
 import image_1 from "/restauranfood.jpg";
 import image_2 from "/restaurant chef B.jpg";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./hero.css";
 
 export default function HeroSection() {
+  const navigate = useNavigate();
+
   return (
     <section className="hero-container">
       <div className="hero-content">
@@ -14,10 +16,8 @@ export default function HeroSection() {
           and classic cocktails in a lively but casual environment. The
           restaurant features a localy-sourced menu with daily specials.
         </p>
-        <button>
-          <Link to="/little-lemon/booking-table" className="hero-router-link">
-            Reserve a Table
-          </Link>
+        <button onClick={() => navigate("/little-lemon/booking-table")}>
+          Book now!
         </button>
       </div>
       <div className="hero-images">

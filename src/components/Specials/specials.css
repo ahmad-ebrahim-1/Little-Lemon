@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 550px;
+  gap: 660px;
 }
 .title-row h1 {
   font-family: var(--font-1);
@@ -19,7 +19,11 @@
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s linear;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
 }
 .title-row button:hover {
   background: var(--primary-1);
