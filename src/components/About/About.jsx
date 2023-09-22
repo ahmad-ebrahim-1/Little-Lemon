@@ -13,15 +13,12 @@ export default function About() {
           alt="Restaurant image"
         />
         <div className="card__content">
-          <p className="card__title">
-            <img src={about} alt="About image" />
-          </p>
+          <img src={about} alt="About image" />
           <p className="card__description">
-            Little lemon restaurant is located in Chicago city, serving all
-            kinds of western and oriental dishes prepared by the best chefs on
-            the international level. It is also distinguished by its wonderful
-            view, modern design, and certainly its terrace with its amazing
-            view!
+            <span>Little Lemon</span> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ducimus maiores temporibus ratione expedita
+            officia fugiat ut consequatur autem voluptas eos eaque cum eius
+            numquam dolorem ipsa aliquid officiis, beatae eum.
           </p>
         </div>
       </div>

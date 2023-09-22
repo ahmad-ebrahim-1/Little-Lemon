@@ -48,17 +48,17 @@
 }
 .row .title {
   font-family: var(--font-1);
-  font-size: 25px;
+  font-size: 30px;
 }
 .row .price {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 500;
   color: #ee9972;
 }
 .description {
   font-size: 16px;
   line-height: 1.4;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--primary-1);
 }
 .order-row {
@@ -73,7 +73,7 @@
   padding: 0.5rem;
   text-decoration: none;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   color: var(--highlight-2);
   border: 1px solid rgba(0, 0, 0, 0.75);
   border-radius: 16px;

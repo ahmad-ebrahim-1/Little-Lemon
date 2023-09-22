@@ -21,13 +21,14 @@ li {
 }
 .footer-title {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 900;
   color: var(--highlight-1);
 }
 .doormat-link .footer-link,
 .contact .footer-link {
   text-decoration: none;
   font-size: 16px;
+  font-weight: 300;
   color: var(--highlight-1);
 }
 .doormat-link .footer-link:hover,
