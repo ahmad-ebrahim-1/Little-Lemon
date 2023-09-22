@@ -15,10 +15,11 @@ export default function About() {
         <div className="card__content">
           <img src={about} alt="About image" />
           <p className="card__description">
-            <span>Little Lemon</span> Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ducimus maiores temporibus ratione expedita
-            officia fugiat ut consequatur autem voluptas eos eaque cum eius
-            numquam dolorem ipsa aliquid officiis, beatae eum.
+            <span>Little Lemon</span> <span className="content__line"></span>{" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            maiores temporibus ratione expedita officia fugiat ut consequatur
+            autem voluptas eos eaque cum eius numquam dolorem ipsa aliquid
+            officiis, beatae eum.
           </p>
         </div>
       </div>

@@ -83,6 +83,9 @@ select:focus {
     -o-border-radius: 0;
   }
   .form-title {
-    font-size: 45px;
+    font-size: 50px;
+  }
+  .form-input label {
+    font-size: 18px;
   }
 }

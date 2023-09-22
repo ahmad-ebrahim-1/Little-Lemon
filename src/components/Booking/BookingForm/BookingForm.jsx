@@ -69,7 +69,7 @@ export default function BookingForm(props) {
       <div className="form-input">
         <label htmlFor="date">
           Choose date
-          <span style={{ color: "#ff3c00" }}>*</span>
+          <span style={{ color: "#ff3c00" }}> *</span>
         </label>
         <input
           type="date"
