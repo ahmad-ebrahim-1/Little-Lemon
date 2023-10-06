@@ -7,9 +7,9 @@ export default function Nav() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    let links = document.querySelectorAll(".nav-item");
-    for (let i = 0; i < links.length; i++) {
-      links[i].addEventListener("click", () => {
+    let navLinks = document.querySelectorAll(".nav-item");
+    for (let i = 0; i < navLinks.length; i++) {
+      navLinks[i].addEventListener("click", () => {
         setIsVisible(false);
       });
     }

@@ -16,10 +16,15 @@ export default function About() {
           <img src={about} alt="About image" />
           <p className="card__description">
             <span>Little Lemon</span> <span className="content__line"></span>{" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            maiores temporibus ratione expedita officia fugiat ut consequatur
-            autem voluptas eos eaque cum eius numquam dolorem ipsa aliquid
-            officiis, beatae eum.
+            Welcome to Little Lemon Restaurant, a hidden gem in Chicago's
+            vibrant neighborhood. Our intimate eatery offers delectable cuisine,
+            warm ambiance, and exceptional service. Led by Chef Maria Sanchez,
+            our culinary team creates contemporary American dishes with fresh,
+            locally sourced ingredients. From succulent seafood to flavorful
+            pasta, there's something for every palate. Our attentive staff,
+            handcrafted cocktails, and curated wine list ensure a memorable
+            dining experience. Join us at Little Lemon Restaurant and discover
+            why we're a cherished culinary destination in Chicago.
           </p>
         </div>
       </div>
