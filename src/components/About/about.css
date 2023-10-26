@@ -18,12 +18,14 @@
   gap: 10px;
 }
 .restaurant-img {
-  width: 625px;
+  width: 550px;
   border-radius: 200px 200px 16px 200px;
   -webkit-border-radius: 200px 200px 16px 200px;
   -moz-border-radius: 200px 200px 16px 200px;
   -ms-border-radius: 200px 200px 16px 200px;
   -o-border-radius: 200px 200px 16px 200px;
+  object-fit: cover;
+  object-position: center;
 }
 .card__content {
   width: 500px;
@@ -53,7 +55,7 @@
   margin-bottom: 6px;
 }
 .card__description {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
   background: #fefcff;

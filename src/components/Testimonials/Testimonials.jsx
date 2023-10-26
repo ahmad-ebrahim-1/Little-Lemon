@@ -10,13 +10,13 @@ export default function Testemonials() {
     {
       name: "Patrick",
       img: patrick,
-      text: "It was an amazing experience, I really enjoyed the food especially the signature dessert, and the service was great.",
+      text: "It was an amazing experience, I enjoyed the food especially the signature dessert, and the service was great.",
       rating: "5/5",
     },
     {
       name: "Lisa",
       img: lisa,
-      text: "I ordered the greek salad online and it was a worthwhile experience, the food is delicious and the service is excellent",
+      text: "I ordered the greek salad and it was a great experience, the food is delicious and the service is excellent",
       rating: "4.5/5",
     },
     {

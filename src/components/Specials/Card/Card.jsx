@@ -10,12 +10,10 @@ export default function Card(props) {
         <p className="price">{props.price}</p>
       </div>
       <p className="description">{props.description}</p>
-      <div className="order-row">
-        <a className="order-btn" href="">
-          Order a delivery
-        </a>
+      <a className="order-btn" href="">
+        <p>Order a delivery</p>
         <img className="delivery" src={delivery} alt="Delivery icon" />
-      </div>
+      </a>
     </article>
   );
 }

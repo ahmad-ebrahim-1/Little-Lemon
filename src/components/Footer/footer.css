@@ -8,6 +8,8 @@
 }
 .footer-img {
   width: 200px;
+  object-fit: contain;
+  object-position: center;
 }
 .doormat-navigation,
 .contacts,

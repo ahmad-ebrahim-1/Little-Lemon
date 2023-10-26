@@ -19,6 +19,8 @@
 }
 .logo {
   cursor: pointer;
+  object-fit: contain;
+  object-position: center;
 }
 .nav-item {
   list-style-type: none;

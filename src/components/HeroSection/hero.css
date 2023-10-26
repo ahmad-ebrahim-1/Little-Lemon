@@ -59,10 +59,11 @@
   gap: 10px;
 }
 .hero-image {
-  aspect-ratio: 2/3;
   width: 225px;
   border: 1px solid var(--highlight-1);
   border-radius: 16px;
+  object-fit: cover;
+  object-position: center;
 }
 /* Responsive */
 @media screen and (min-width: 456px) and (max-width: 1045px) {
@@ -107,7 +108,6 @@
     align-items: center;
   }
   .hero-image {
-    width: 196px;
-    height: 275px;
+    width: 85%;
   }
 }
