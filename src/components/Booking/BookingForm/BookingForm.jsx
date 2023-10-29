@@ -5,7 +5,7 @@ export default function BookingForm(props) {
   const [formData, setFormData] = useState({
     date: null,
     time: "",
-    guests: 4,
+    guests: 2,
     occasion: "Ordinary dinner",
   });
   const [errorMessages, setErrorMessages] = useState({});
@@ -56,7 +56,7 @@ export default function BookingForm(props) {
       setFormData({
         date: null,
         time: "",
-        guests: 4,
+        guests: 2,
         occasion: "Ordinary dinner",
       });
     }
